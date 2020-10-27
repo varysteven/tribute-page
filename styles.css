@@ -1,0 +1,53 @@
+html {
+  font-size: 10px;
+}
+body {
+  text-align: center;
+  background-color: white;
+  font-family: 'Roboto', "Arial", sans-serif;
+  font-size: 2rem;
+}
+main {
+  background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+  border-radius: 1em;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+#title {
+  padding-top: 10px;
+  font-size: 5.5rem;
+  font-family: "Arial", sans-serif;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+}
+#img-div{
+  background-color: white;
+  padding: 1em;
+  border-radius: 1em;
+}
+#img-caption {
+  padding-top:0.8em;
+}
+#tribute-info {
+  text-align: center;
+}
+h2 {
+  font-size: 2.5rem;
+}
+ul {
+  max-width: 50%;
+  margin: auto;
+  line-height: 1.5;
+  text-align: left;
+}
+li {
+  margin: 12px;
+}
+h3 {
+  font-size: 2rem;
+}
