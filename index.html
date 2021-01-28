@@ -1,24 +1,32 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Arnold Schwarzeneggar</title>
-    <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <main id="main">
-       <figure id="img-div">
-        <img
-          id="image"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Arnold_Schwarzenegger_by_Gage_Skidmore_3.jpg/1200px-Arnold_Schwarzenegger_by_Gage_Skidmore_3.jpg"
-          alt="A picture of young Arnold posing for the camera with a dumbbell.">
-       </figure>
-       <section id="tribute-info">
-         <h1 id="title">Arnold Schwarzenegger</h1>
-         <p>Actor, businessman, governor, bodybuilder, and inspiration.</p>
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <meta name="author" content="Levi Vary">
+   <meta name="description" content="A template for presentation and tribute webpages.">
+   <meta name="keywords" content="arnold, schwarzeneggar, tribute">
+   <link rel="stylesheet" href="styles.css"/>
+   <title>Arnold Schwarzeneggar</title>
+ </head>
+ <body>
+   <main id="main">
+     <div id="container">
+       <div id="img-div">
+         <img
+         id="image"
+         src="arnold-img.jpg"
+         alt="Portrait of Arnold Schwarzeneggar"/>
+       </div>
+       <div id="text-content">
+         <h1 id="title">
+           Arnold Schwarzenegger
+         </h1>
+         <p id="description">
+           Actor, businessman, governor, bodybuilder, and inspiration.
+         </p>
          <h2>
-           Learn more about the wonderful life of Arnold Schwarzenegger:
+           More about Arnold Schwarzenegger's life:
          </h2>
          <section id="timeline">
            <ul>
@@ -42,9 +50,16 @@
              </li>
            </ul>
          </section>
-         <h3> Visit the wikipedia page: <a id="tribute-link" href="https://en.wikipedia.org/wiki/Arnold_Schwarzenegger" target="_blank"> Click Me!</a>
-         </h3>
-       </section>
-    </main>
-   </body>
+         <div id="link-div">
+           <a id="info-link" href="https://en.wikipedia.org/wiki/Arnold_Schwarzenegger" target="_blank">
+             <img
+              id="wiki-img"
+              src="button-img.png"
+              alt="Wikipedia"/>
+            </a>
+         </div>
+       </div>
+     </div>
+   </main>
+ </body>
 </html>

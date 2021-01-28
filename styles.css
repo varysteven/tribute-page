@@ -1,63 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-html {
-  font-size: 1rem;
+/*Root Values*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 20px;
 }
+
+/*Page Body*/
 body {
-  text-align: center;
-  background-color: white;
-  font-family: 'Roboto', "Arial", sans-serif;
-  font-size: 2rem;
+  background: lightBlue url(background-img.jpg) repeat;
+  background-size: 200px 200px;
 }
-main {
-  background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
-  border-radius: 1em;
-  padding: 5px;
-  padding-bottom: 10px;
+#container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  margin: 20px auto 20px auto;
+  box-shadow: 0 4px 10px;
+  width: 60rem;
+}
+/*Image*/
+#img-div {
+  width: 100%;
+}
+#image {
+  display: block;
+  width: 30rem;
+}
+/*Text Content*/
+#text-content {
+  margin: 1rem;
+  font-size: 1.1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 #title {
-  padding-top: 10px;
-  font-size: 5.5rem;
-  font-family: "Arial", sans-serif;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  margin: 0.3rem 0.5rem 0.5rem 0.8rem;
 }
-img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-  width: 80%;
-  margin: 0 auto;
-}
-#img-div{
-  background-color: white;
-  padding: 1em;
-  border-radius: 1em;
-}
-#img-caption {
-  padding-top:0.8em;
-}
-#tribute-info {
-  text-align: center;
+#description {
+  font-size: inherit;
 }
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.3rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0.5rem;
+  margin-left: 0.8rem;
 }
 ul {
-  max-width: 50%;
-  margin: auto;
-  line-height: 1.5;
-  text-align: left;
+  list-style: none;
+  margin-top: 0.5rem;
 }
-li {
-  margin: 12px;
+#link-div {
+  text-align: center;
 }
-h3 {
-  font-size: 2rem;
+#wiki-img {
+  margin-top: 1rem;
+  height: 4.2rem;
 }
-@media (max-width: 800px) {
-  ul {
-    max-width: 90%;
+/*Media Queries*/
+@media (min-width: 320px) {
+  * {
+    font-size: 12px;
   }
-  img {
-    width: 95%;
+}
+@media (min-width: 481px) {
+  * {
+    font-size: 16px;
+  }
+}
+@media (min-width: 641px) {
+  * {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1001px) {
+  * {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1281px) {
+  * {
+    font-size: 20px;
+  }
+}
+@media (max-width: 740px) {
+  #container {
+    grid-template-columns: auto;
+    max-width: 30rem;
+  }
+  * {
+    font-size: 16px;
+  }
+}
+@media (max-width: 540px) {
+  * {
+    font-size: 12px;
+  }
+}
+@media (max-width: 420px) {
+  * {
+    font-size: 10px;
   }
 }
